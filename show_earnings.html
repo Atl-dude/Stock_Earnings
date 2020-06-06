@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+    <table>
+        {% for key, values in stocks_json.items() %}
+        <b>{{key}}</b>
+            <br />
+            {% for value in values %}
+                {{value}}<br />
+            {% endfor %}
+            <br /><br />
+        {% endfor %}
+
+    </table>
+
+</body>
+</html>
