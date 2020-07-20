@@ -11,8 +11,8 @@ import smtplib
 
 def send_mail():
 
-    gmail_user = 'tariq.delwar@gmail.com'
-    gmail_password = 'kgosi2!79'
+    gmail_user = 'abce@gmail.com'
+    gmail_password = 'xxxxxx'
 
     sent_from = gmail_user
     to = ['tariq.delwar@gmail.com']
